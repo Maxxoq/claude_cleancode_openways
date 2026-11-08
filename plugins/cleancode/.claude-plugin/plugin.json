@@ -1,7 +1,7 @@
 {
   "name": "cleancode",
   "displayName": "Clean Code Agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Audits and refactors a codebase end to end without changing behaviour: dead code, naming, duplication, structure, error handling, security hygiene, tests.",
   "author": { "name": "openways.ai", "url": "https://github.com/Maxxoq" },
   "homepage": "https://github.com/Maxxoq/cleancode_openways.ai",

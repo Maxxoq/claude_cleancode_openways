@@ -95,6 +95,9 @@ Issues and pull requests are welcome, especially real-world cases where the agen
 1. Edit only the files in `prompt/`.
 2. Run `./scripts/build.sh` to regenerate the plugin files. CI runs `./scripts/build.sh --check`.
 3. Validate with `claude plugin validate ./plugins/cleancode` and `claude plugin validate .`.
+4. Add a line under `[Unreleased]` in [CHANGELOG.md](CHANGELOG.md).
+
+**Releases** follow [Semantic Versioning](https://semver.org/). Maintainers bump `version` in `plugins/cleancode/.claude-plugin/plugin.json`, then turn `[Unreleased]` into a dated version section and commit. After that, `./scripts/release.sh` tags the commit, pushes it, and creates the GitHub release. Users update with `claude plugin marketplace update openways` and then `claude plugin update cleancode@openways`.
 
 ## License
 
