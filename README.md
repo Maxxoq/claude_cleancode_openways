@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://openways.ai">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/openways-logo-dark.svg">
+      <img src="assets/openways-logo-light.svg" alt="OpenWays.ai" width="320">
+    </picture>
+  </a>
+</p>
+
 # Clean Code Agent — by OpenWays.ai
 
 A free, open-source **refactoring agent** for Claude Code and any other AI assistant. It goes through your codebase end to end, finds what makes it hard to read, change, and trust, and cleans it up **without changing what it does**.
@@ -76,6 +85,7 @@ plugins/cleancode/           # Claude Code plugin (generated agent + skill)
   skills/clean/SKILL.md
 .claude-plugin/marketplace.json
 scripts/build.sh             # regenerates the plugin files from prompt/
+assets/                      # OpenWays.ai logo
 ```
 
 ## Contributing
