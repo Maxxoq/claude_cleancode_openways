@@ -1,0 +1,7 @@
+{
+  "name": "js-cart",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": { "test": "node --test" }
+}

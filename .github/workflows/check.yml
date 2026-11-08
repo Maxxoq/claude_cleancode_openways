@@ -1,8 +1,17 @@
 name: check
 on: [push, pull_request]
 jobs:
-  generated-files-in-sync:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ./scripts/build.sh --check
+      - name: Generated files are in sync with prompt/
+        run: ./scripts/build.sh --check
+      - name: Guard and context scripts are valid bash
+        run: bash -n plugins/cleancode/scripts/guard.sh && bash -n plugins/cleancode/scripts/context.sh
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Eval checks pass on untouched fixtures (no AI calls)
+        run: pip install -q pytest && ./evals/run.sh selftest
