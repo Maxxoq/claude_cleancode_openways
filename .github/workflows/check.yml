@@ -1,0 +1,8 @@
+name: check
+on: [push, pull_request]
+jobs:
+  generated-files-in-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/build.sh --check

@@ -1,0 +1,14 @@
+{
+  "name": "openways",
+  "description": "Free, open-source Claude Code plugins by OpenWays.ai",
+  "owner": { "name": "OpenWays.ai", "url": "https://github.com/Maxxoq" },
+  "plugins": [
+    {
+      "name": "cleancode",
+      "source": "./plugins/cleancode",
+      "description": "Clean Code Agent — audits and refactors a codebase end to end without changing behaviour",
+      "category": "code-quality",
+      "tags": ["refactoring", "clean-code", "code-review", "audit"]
+    }
+  ]
+}
