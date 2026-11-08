@@ -1,7 +1,7 @@
 {
   "name": "openways",
-  "description": "Free, open-source Claude Code plugins by OpenWays.ai",
-  "owner": { "name": "OpenWays.ai", "url": "https://github.com/Maxxoq" },
+  "description": "Free, open-source Claude Code plugins by openways.ai",
+  "owner": { "name": "openways.ai", "url": "https://github.com/Maxxoq" },
   "plugins": [
     {
       "name": "cleancode",

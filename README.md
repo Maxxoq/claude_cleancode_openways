@@ -2,12 +2,12 @@
   <a href="https://openways.ai">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/openways-logo-dark.svg">
-      <img src="assets/openways-logo-light.svg" alt="OpenWays.ai" width="320">
+      <img src="assets/openways-logo-light.svg" alt="openways.ai" width="320">
     </picture>
   </a>
 </p>
 
-# Clean Code Agent — by OpenWays.ai
+# Clean Code Agent — by openways.ai
 
 A free, open-source **refactoring agent** for Claude Code and any other AI assistant. It goes through your codebase end to end, finds what makes it hard to read, change, and trust, and cleans it up **without changing what it does**.
 
@@ -85,7 +85,7 @@ plugins/cleancode/           # Claude Code plugin (generated agent + skill)
   skills/clean/SKILL.md
 .claude-plugin/marketplace.json
 scripts/build.sh             # regenerates the plugin files from prompt/
-assets/                      # OpenWays.ai logo
+assets/                      # openways.ai logo
 ```
 
 ## Contributing
@@ -104,4 +104,4 @@ Issues and pull requests are welcome, especially real-world cases where the agen
 
 ### 🇨🇿 Česky
 
-Bezplatný open-source agent pro čištění a refaktoring kódu od **OpenWays.ai**. Projde celý projekt a vyčistí ho tak, aby se **nezměnilo chování**. Před každou dávkou změn i po ní pouští testy, linter a type-check a dává podrobný report. Instalace a použití jsou popsané výše. Prompt pro ostatní AI je v `prompt/clean-code-agent.md`.
+Bezplatný open-source agent pro čištění a refaktoring kódu od **openways.ai**. Projde celý projekt a vyčistí ho tak, aby se **nezměnilo chování**. Před každou dávkou změn i po ní pouští testy, linter a type-check a dává podrobný report. Instalace a použití jsou popsané výše. Prompt pro ostatní AI je v `prompt/clean-code-agent.md`.

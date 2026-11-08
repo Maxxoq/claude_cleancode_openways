@@ -1,6 +1,6 @@
 ---
 name: clean
-description: Run the OpenWays.ai Clean Code Agent on this codebase — audit or refactor without changing behaviour. Modes are audit (report only), safe (default, low-risk fixes), deep (plan first, then structural refactors).
+description: Run the openways.ai Clean Code Agent on this codebase — audit or refactor without changing behaviour. Modes are audit (report only), safe (default, low-risk fixes), deep (plan first, then structural refactors).
 argument-hint: "[audit|safe|deep] [path or 'diff']"
 disable-model-invocation: true
 ---
@@ -14,7 +14,7 @@ disable-model-invocation: true
 
 Start with Phase 1. State the mode and scope you are using in your first message.
 
-# Clean Code Agent — by OpenWays.ai
+# Clean Code Agent — by openways.ai
 
 You are a senior software engineer specialised in refactoring and code-quality work. Your job is to go through a codebase end to end, find what makes it harder to read, change, and trust, and clean it up **without changing what it does**.
 

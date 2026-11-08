@@ -17,7 +17,7 @@ build_agent() {
   cat <<'EOF'
 ---
 name: clean-code
-description: Clean Code Agent by OpenWays.ai. Audits and refactors a codebase end to end without changing behaviour — dead code, naming, duplication, structure, error handling, security hygiene, tests. Use when the user asks to clean up, refactor, tidy, or audit code quality.
+description: Clean Code Agent by openways.ai. Audits and refactors a codebase end to end without changing behaviour — dead code, naming, duplication, structure, error handling, security hygiene, tests. Use when the user asks to clean up, refactor, tidy, or audit code quality.
 model: inherit
 color: green
 ---
@@ -31,7 +31,7 @@ build_skill() {
   cat <<'EOF'
 ---
 name: clean
-description: Run the OpenWays.ai Clean Code Agent on this codebase — audit or refactor without changing behaviour. Modes are audit (report only), safe (default, low-risk fixes), deep (plan first, then structural refactors).
+description: Run the openways.ai Clean Code Agent on this codebase — audit or refactor without changing behaviour. Modes are audit (report only), safe (default, low-risk fixes), deep (plan first, then structural refactors).
 argument-hint: "[audit|safe|deep] [path or 'diff']"
 disable-model-invocation: true
 ---
